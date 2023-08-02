@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: "RegularFont";
+    src: url("ruta/regular-font.woff2") format("woff2"),
+         url("ruta/regular-font.woff") format("woff");
+    
+  }
+  
+  @font-face {
+    font-family: "BoldFont";
+    src: url("ruta/bold-font.woff2") format("woff2"),
+         url("ruta/bold-font.woff") format("woff");
+    
+  }
+  
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  p {
+    font-size: 30pt;
+    font-family: "Roboto regular", sans-serif; 
+    color: #04146c
+  }
+  .container {
+    text-align: center;
+  }
+ 
+  h1 {
+    font-size: 90pt;
+    font-family: "coolvetica regular";
+    color: #0a2ff1;
+  }
+  
+  .boton {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #0a2ff1;
+    border: 3px solid #0a2ff1;
+    font-size: 30pt;
+    font-family: "RegularFont", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .boton-estilo {
+    color: #04146c;
+    border: 3px solid #0a2ff1;
+    font-size: 30pt;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  
